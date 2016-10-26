@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://schema.picoe.ca/eto.forms"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:sys="clr-namespace:System;assembly=mscorlib"
+      xmlns:e="clr-namespace:EtoErrorTest.UI;assembly=EtoErrorTest"
+      Title="My Eto Form" ClientSize="400, 350">
+      <!--<Label>Foo</Label>-->
+	<EnumDropDown x:TypeArguments="e:ExampleEnum" />
+</Form>
